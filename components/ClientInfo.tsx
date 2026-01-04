@@ -60,7 +60,7 @@ export default function ClientInfo() {
   if (!data) return null;
   return (
     <div>
-      <h3>Clientside data</h3>
+      <h3>Client data (navigator and performance objects)</h3>
       <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
     </div>
   );
